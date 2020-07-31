@@ -1,0 +1,72 @@
+.shelf{
+    height: 25%;
+    border-bottom: 10px solid rgb(59, 37, 3);
+    padding: 20px 20px 0 20px;
+    display:flex;
+    
+}
+
+.book{
+    border:1px solid #aba;
+    background-color: rgba(181, 234, 241, 0.267);
+    padding: 2px;
+    margin:auto 45px;
+    height: 259px;
+    display:flex;
+    flex-direction: column;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.title{
+    max-width: 200px;
+    max-height: 30px;
+    color: blue;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.author{
+    max-width: 200px;
+    max-height: 20px;
+    color: red;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#newbookbtn{
+    position:fixed;
+    left:0;
+    top:10px;
+}
+
+.addbookform{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fbfbfb;
+    padding-top: 100px;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.formcontent{
+   /* position:relative;*/
+     left:370px;
+     top: -3px;
+    background-color: #dcdcdc;
+    padding:30px;
+    max-width:400px;
+}
+
+.formheader{
+    text-align: center;
+    padding: 10px auto;
+    border-bottom: 2px solid rgb(34, 33, 33) !important;
+}
+
